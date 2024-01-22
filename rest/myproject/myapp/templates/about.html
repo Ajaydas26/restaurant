@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'ZCOOL KuaiLe', cursive;
+*/
+:root {
+  --primary-color: #9baf6d;
+  --default-trans: all 0.3s ease;
+}
+
+/*Reset*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul,ol {
+  list-style: none;
+}
+
+/*General Style*/
+.container {
+  max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Primary Style*/
+#about {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #212121;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-img {
+  position: absolute;
+  top: -70px;
+  right: 0;
+  width: 45%;
+}
+
+.about-text-container {
+  padding-top: 100px;
+  padding-bottom: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text-container .container {
+  margin-left: 0;
+  max-width: 50%;
+}
+
+.about-text-container .container h4 {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+.about-text-container .container p {
+  color: #FFF;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.about-item-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #45493b;
+  position: relative;
+  z-index: 2;
+}
+
+.about-item-container .row {
+  justify-content: space-between;
+}
+
+.about-item {
+  flex: 30%;
+  max-width: 30%;
+  margin-bottom: 20px;
+}
+
+.about-item ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.about-item h4 {
+  color: #FFF;
+  font-family: 'ZCOOL KuaiLe', cursive;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.about-item p {
+  color: #bebfbb;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .about-img {
+  top: -50px;
+  right: 100px;
+  width: 40%;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+.about-item {
+  flex: 100%;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+  .about-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-text-container .container {
+  margin-left: 20px;
+  max-width: 100%;
+}
+}</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title>Japanese Restaurant About Us</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="about">
+    <div class="about-text-container">
+      <div class="container">
+        <div class="about-text">
+          <h4>What do we actually make?</h4>
+          <p>	WE MAKE:
+              <ol style="color:red">
+            <br>
+            
+        <li>
+            BIRIYANI</li>
+            <br>
+            <li> NOODLES</li>
+            <br>
+            <li> MANDHIS</li>
+            <br>
+            <li> FRESH SHAKES</li>
+
+        </ol>
+•
+</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="about-img">
+      <img src="https://i.imgur.com/XRuig1X.png" alt="" class="img-fluid">
+    </div>
+
+    <div class="about-item-container">
+      <div class="container">
+        <div class="row">
+
+          <div class="about-item">
+            <ul class="brushes">
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+            </ul>
+            <h4>New tastes</h4>
+
+          </div>
+
+          <div class="about-item">
+            <ul class="brushes">
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+            </ul>
+            <h4>New dishes cooking</h4>
+
+          </div>
+<br>
+          <br>
+          <br>
+          <div class="about-item">
+            <ul class="brushes">
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+              <li>
+                <img src="https://i.imgur.com/tkuwIqd.png" class="img-fluid" alt="">
+              </li>
+            </ul>
+            <h4>New restaurant</h4>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
